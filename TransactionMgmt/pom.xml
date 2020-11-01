@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Wallet_Amount</artifactId>
+	<artifactId>TransactionMgmt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Wallet_Amount</name>
+	<name>TransactionMgmt</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -51,6 +51,11 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka-test</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
